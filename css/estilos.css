@@ -1,5 +1,5 @@
 body{
-    background-image: url("./imagens/wallpaper.jpg");
+    background-image: url("../imagens/wallpaper.jpg");
 }
 
 #redeSocial{
@@ -21,7 +21,7 @@ body{
     height: 815px;
     top: 130px;
     position: absolute;
-    background-image: url("./imagens/wallpaper.jpg");
+    background-image: url("../imagens/wallpaper.jpg");
 }
 
 #titulo{
