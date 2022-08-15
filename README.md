@@ -4,13 +4,18 @@
 ![Screenshot 2022-08-15 at 07-28-12 Codificador e Decodificador de Palavras](https://user-images.githubusercontent.com/18075942/184620065-f8743930-ad82-4f78-9ee1-3b76217046e6.png)
 
 Projeto
-A ideia do Projeto nada mais é do que codificar e decoficar palavras utilizando as seguintes regras:
 
-1 - A letra "e" é convertida para "enter"
+A ideia do projeto consiste em codificar um texto com base nas regras abaixo. Em relação da decodificação seria o inverso, ou seja, caso a palavra tenha a substring ("enter") por exemplo, ela irá se tornar ("e").
+Ao clicar no botão criptografar ou descriptografar, automaticamente surge o botão "copiar", facilcilando o usuário copiar o texto que será exibido.
 
-2 - A letra "i" é convertida para "imes"
+Linguagem: Java Script
 
-3 - A letra "a" é convertida para "ai"
+
+1 - A letra "a" é convertida para "ai"
+
+2 - A letra "e" é convertida para "enter"
+
+3 - A letra "i" é convertida para "imes"
 
 4 - A letra "o" é convertida para "ober"
 
