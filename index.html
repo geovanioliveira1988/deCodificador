@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador de Palavras</title>
+
+    <script src="/js/script.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    
+    
+    <div id="titulo">
+        <h1>Ch4ll3ng3 I - d3C0D1F1C4D0R</h1>
+    </div>   
+
+    <div id="principal">  
+        <div>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto" ></textarea>
+        </div>           
+    
+        <section class="section">
+            
+            <div class="divTextArea">
+                <textarea class="resultado" name="resultado" id="resultado" cols="30" rows="10" readonly></textarea>
+                <button id="btnCopiar"  onclick="copiar()"><b>Copiar</b></button>
+            </div>
+
+           <div class="semMensagem">
+                <div id="figura1">
+                    <img src="/imagens/lupa.png" alt="" srcset="">
+                </div>
+                <div id="figura2">
+                    <img src="/imagens/mensagem.png" alt="" srcset="">
+                </div> 
+           </div>
+                     
+        </section>
+    
+        <div>
+            <div id="divObs">
+                <p><b>** Apenas letras minúsculas e sem acento</b></p>
+           </div>
+            <div id="divBtnCod">
+                <button onclick="codificar()" id="btnCriptografar"><b>Criptografar</b></button>
+            </div>
+            <div id="divBtnDecod">
+                <button onclick="decodificar()" id="btnDescriptografar"><b>Descriptografar</b></button>
+            </div>                  
+        </div>     
+    </div>
+
+    <footer>
+        <b>Developed by: Geovani Oliveira da Luz</b>
+    </footer> 
+    
+</body>
+</html>
