@@ -6,7 +6,7 @@
 Projeto
 
 A ideia do projeto consiste em codificar um texto com base nas regras abaixo. Em relação da decodificação seria o inverso, ou seja, caso a palavra tenha a substring ("enter") por exemplo, ela irá se tornar ("e").
-Ao clicar no botão criptografar ou descriptografar, automaticamente surge o botão "copiar", facilcilando o usuário copiar o texto que será exibido.
+Ao clicar no botão criptografar ou descriptografar, automaticamente surge o botão "copiar", facilitando o usuário copiar o texto que será exibido.
 
 Linguagem: Java Script
 
